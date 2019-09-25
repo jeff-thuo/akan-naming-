@@ -6,8 +6,8 @@
 * This is a system used to determine one's AKAN NAME Which represents the day of the week you were born .it is calculated by adding your year of birth , date and month.
 
 ## Setup images
-* My appears likethis when deployed 
-![picture](my-project.png)
+* My appears like this when deployed 
+![ picture](images/my-project.png)
 
 ## Setup instructions.
  * the user must have a computer or a phone that support either android or ios 
