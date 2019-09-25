@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>birthday</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <Script src="js/scripts.js"></Script>
+    
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1 style="color:darkblue">AKAN NAMING FORMAT</h1>
+      <h4>This is a web application that takes users birthday<br>
+         and calculates the day of the week they were born ,<br>
+         and give them akan names </h4>
+    </div>
+
+    <p>Fill in the feilds</b> then hit the &quot;submit&quot; button</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+    </div>
+    <form>
+      <p>Enter gender </p>
+      Male:<input type="radio" name="gender" value="Male"><BR>
+      Female:<input type="radio" name="gender" value="Female">
+      <p>Enter Month : <input TYPE="text" NAME="month" SIZE="2"> </p>
+      <p>Enter Day of Month : <input TYPE="text" NAME="day" SIZE="2"> </p>
+      <p>Year : <input TYPE="text" NAME="year" SIZE="4"> </p>
+      <p><input TYPE="button" VALUE="submit" ONCLICK="compute(this.form)">
+         <input TYPE="reset" VALUE="Clear"> </p>
+      <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p>
+      <p>Day of Week: <input TYPE="text" NAME="result2" SIZE="18"> </p>
+      <p>Your Akan Name Is : <input type="text" name="result3" size="18"></p>
+    </form>
+  </body>
+</html>
